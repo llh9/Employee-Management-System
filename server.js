@@ -16,7 +16,6 @@ var selection = 0;
 var done = false;
 var temp = [];
 
-
 const db = mysql.createConnection(
     {
         host: 'localhost',
@@ -357,6 +356,7 @@ async function selector(selection) {
         return;
     };
 };
+
 async function QnA() {
     task = await input.select('What would you like to get done today?',
         choices
@@ -372,13 +372,13 @@ async function QnA() {
             }
         });
 };
-const run = () =>
-    done == true ?
-        console.log('Untill next time. \npress [control] & [c]') :
-        QnA();
+
+const run = () => done == true ? console.log('Untill next time. \npress [control] & [c]') : QnA();
+
 const go = new Promise((resolve, reject) => {
     resolve('Successful db initialization!');
     init();
 })
-    .then(() => run());
+.then(() => run());
+
 app.listen(process.env.PORT || 3001);
