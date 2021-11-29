@@ -49,19 +49,11 @@ This application can be installed by cloning or downloading the files in this gi
     
 To use this application, simply answer the prompts and all informatin will be saved into the database.
     
-## [Walkthrough Video](!!!!!!!!!!!!!!WALKTHROUGH HERE!!!!!!!!!!!)
+## [Walkthrough Video](https://watch.screencastify.com/v/30wQ0RAeMcz7oQHvnwVf) <-(click that heading, its the link to the video)
     
 ### [Demo Screenshot 1](#demo-screenshot-1)
     
-![screenshot demo ](./SS1.PNG)
-    
-### [Demo Screenshot 2](#demo-screenshot-2)
-    
-![screenshot demo](./SS2.PNG)
-    
-### [Demo Screenshot 3](#demo-screenshot-3)
-    
-![screenshot demo](./SS3.PNG)
+![screenshot demo ](./assets/images/EMS-SS2.PNG)
     
 ## [Test](#test)
     
